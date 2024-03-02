@@ -1,0 +1,94 @@
+/* Resetting default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+ 
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  line-height: 1.6;
+  
+}
+
+header {
+  
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #f1efed;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+  background-color: #ebb543df;
+}
+.container{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.adventure {
+  background-color: #d2c076;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  
+}
+
+.adventure h2 {
+  color: #333;
+}
+
+.adventure p {
+  color: #0e0e9b;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #178a67c1;
+}
+
+footer {
+  background-color: #a7a58d;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.adventure img{
+  width: 1200px;
+  height: 800px;
+  
+}
